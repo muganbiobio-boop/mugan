@@ -359,6 +359,7 @@ window.MUGAN = {
         { nombre: "Ge-Baek", movimientos: "44 movimientos", significado: "Honra al general Ge-Baek de Baek Je, símbolo de disciplina severa.", diagrama: "img/tul_13_gae_baek.png", youtubeId: "https://www.youtube.com/watch?v=_5-gTw8LIGg&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=25" },
       ],
       videos: [{ titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=sIROpaedlRA&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=23", mp4: "" }],
+      videos: [{ titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=A3cJQJR8rh0&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=24", mp4: "" }],
       audios: [{ titulo: "Terminología I Dan", desc: "Teoría avanzada del nivel", src: "audio/term-1dan.mp3" }],
       tutoriales: [{ titulo: "Materia I Dan — Cinturón Negro", src: "tutoriales/cinturon-negro_1dan.html" }],
     },
