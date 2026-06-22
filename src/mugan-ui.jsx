@@ -87,6 +87,17 @@ export function waLink(msg) {
   return `https://wa.me/${c.whatsapp}?text=${encodeURIComponent(msg || c.whatsappMensaje)}`;
 }
 
+// Extrae el ID de un video de YouTube aceptando cualquier formato:
+// solo el ID, watch?v=, youtu.be/, /embed/, /shorts/ (con o sin parámetros).
+// Así da igual si en mugan-data.js se pega el ID o la URL completa.
+export function ytId(input) {
+  if (!input) return "";
+  const s = String(input).trim();
+  if (/^[\w-]{11}$/.test(s)) return s; // ya es un ID limpio
+  const m = s.match(/(?:youtu\.be\/|[?&]v=|\/embed\/|\/shorts\/|\/v\/)([\w-]{11})/);
+  return m ? m[1] : s;
+}
+
 /* ---------- Iconos SVG ---------- */
 export const Icon = {
   whatsapp: (
