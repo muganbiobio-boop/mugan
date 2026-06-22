@@ -183,7 +183,7 @@ window.MUGAN = {
       ],
       videos: [
         { titulo: "Posiciones básicas (placeholder)", youtubeId: "https://www.youtube.com/watch?v=6X1OTIAaJII&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG", mp4: "" },
-        { titulo: "Saju Jirugi paso a paso (placeholder)", youtubeId: "", mp4: "" },
+        { titulo: "Saju Jirugi paso a paso (placeholder)", youtubeId: "https://www.youtube.com/watch?v=qYBxko-4yZo&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=9", mp4: "" },
       ],
       audios: [
         { titulo: "Saludo y comandos básicos", desc: "Charyot · Kyong-ye · Junbi · Sijak · Goman", src: "audio/comandos-basicos.mp3" },
@@ -206,7 +206,7 @@ window.MUGAN = {
           diagrama: "img/tul_03_chon_ji.png", youtubeId: "https://www.youtube.com/watch?v=0geBPLJn0GI",
         },
       ],
-      videos: [{ titulo: "Tul Chon-Ji completo (placeholder)", youtubeId: "", mp4: "" }],
+      videos: [{ titulo: "Tul Chon-Ji completo (placeholder)", youtubeId: "https://www.youtube.com/watch?v=0geBPLJn0GI", mp4: "" }],
       audios: [{ titulo: "Terminología 9° Gup", desc: "Técnicas y posiciones del nivel", src: "audio/term-9gup.mp3" }],
       tutoriales: [{ titulo: "Materia 9° Gup — Blanco punta amarilla", src: "tutoriales/cinturon-punta_amarilla.html" }],
     },
