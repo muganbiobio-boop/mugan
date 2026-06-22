@@ -182,7 +182,7 @@ window.MUGAN = {
         },
       ],
       videos: [
-        { titulo: "Posiciones básicas (placeholder)", youtubeId: "https://www.youtube.com/watch?v=6X1OTIAaJII&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG", mp4: "" },
+        { titulo: "Posiciones básicas (placeholder)", youtubeId: "https://www.youtube.com/watch?v=6X1OTIAaJII&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=1", mp4: "" },
         { titulo: "Saju Jirugi paso a paso (placeholder)", youtubeId: "https://www.youtube.com/watch?v=qYBxko-4yZo&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=9", mp4: "" },
       ],
       audios: [
