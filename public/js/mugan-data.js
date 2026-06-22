@@ -553,5 +553,10 @@ window.MUGAN = {
     { src: "img/galeria/foto-095.jpg", alt: "Mugan Taekwon-Do ITF" },
     { src: "img/galeria/foto-096.jpg", alt: "Mugan Taekwon-Do ITF" },
     { src: "img/galeria/foto-097.jpg", alt: "Mugan Taekwon-Do ITF" },
+    { src: "img/galeria/foto-098.jpg", alt: "Mugan Taekwon-Do ITF" },
+    { src: "img/galeria/foto-099.jpg", alt: "Mugan Taekwon-Do ITF" },
+    { src: "img/galeria/foto-100.jpg", alt: "Mugan Taekwon-Do ITF" },
+    { src: "img/galeria/foto-101.jpg", alt: "Mugan Taekwon-Do ITF" },
+     
   ],
 };
