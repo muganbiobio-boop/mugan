@@ -375,3 +375,121 @@ export function ZonaAlumnos() {
     </section>
   );
 }
+
+/* ---------- Combate · Matsokgi (lista de videos + reproductor) ----------
+   Cada título puede tener un solo video (campo youtubeId) o varios
+   (campo videos: [{ titulo, youtubeId }]). Si tiene varios, aparece una
+   fila de botones bajo el reproductor para cambiar entre ellos. */
+function combateVideos(item) {
+  if (item.videos && item.videos.length) return item.videos;
+  return [{ titulo: item.titulo, youtubeId: item.youtubeId }];
+}
+
+export function CombateMatsokgi() {
+  const lista = window.MUGAN.combate || [];
+  const [sel, setSel] = useState(0);
+  const [subSel, setSubSel] = useState(0);
+  if (!lista.length) return null; // sin videos → no se muestra la sección
+
+  const item = lista[sel] || lista[0];
+  const videos = combateVideos(item);
+  const current = videos[subSel] || videos[0];
+  const id = ytId(current.youtubeId);
+  const multi = videos.length > 1;
+
+  const selectTitle = (i) => {
+    setSel(i);
+    setSubSel(0); // al cambiar de título, vuelve al primer video
+  };
+
+  return (
+    <section id="combate" className="za-bg" data-screen-label="Combate · Matsokgi">
+      <div className="wrap">
+        <Reveal>
+          <div className="sec-kicker">Zona Alumnos</div>
+          <h2 className="sec-title">
+            Combate · <em>Matsokgi</em>
+          </h2>
+          <p style={{ color: "var(--txt-2)", maxWidth: "620px" }}>
+            Selecciona un video de la lista y se reproducirá al costado.
+          </p>
+        </Reveal>
+
+        <Reveal delay={1}>
+          <div className="combate-layout">
+            <div className="combate-lista" role="tablist" aria-label="Videos de combate">
+              {lista.map((it, i) => {
+                const count = combateVideos(it).length;
+                return (
+                  <button
+                    key={i}
+                    className={`combate-item${i === sel ? " active" : ""}`}
+                    onClick={() => selectTitle(i)}
+                    role="tab"
+                    aria-selected={i === sel}
+                  >
+                    <span className="num">{String(i + 1).padStart(2, "0")}</span>
+                    <span className="t">
+                      {it.titulo}
+                      {count > 1 ? <span className="combate-count"> · {count} videos</span> : null}
+                    </span>
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="combate-player">
+              <div className="video-player">
+                {id ? (
+                  <iframe
+                    key={id}
+                    src={`https://www.youtube-nocookie.com/embed/${id}`}
+                    title={current.titulo || item.titulo}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                ) : (
+                  <div
+                    style={{
+                      height: "100%", display: "flex", flexDirection: "column",
+                      alignItems: "center", justifyContent: "center", gap: "12px",
+                      color: "var(--txt-3)", fontSize: "14px", textAlign: "center", padding: "20px",
+                    }}
+                  >
+                    <div className="vt-play"></div>
+                    <span>
+                      {item.titulo}
+                      <br />
+                      <small>✏️ pega el link de YouTube en mugan-data.js → combate</small>
+                    </span>
+                  </div>
+                )}
+              </div>
+
+              <h3 className="combate-titulo">
+                {item.titulo}
+                {multi ? <span className="combate-sub"> · {current.titulo}</span> : null}
+              </h3>
+
+              {multi ? (
+                <div className="combate-chips" role="tablist" aria-label="Videos del título">
+                  {videos.map((vid, j) => (
+                    <button
+                      key={j}
+                      className={`combate-chip${j === subSel ? " active" : ""}`}
+                      onClick={() => setSubSel(j)}
+                      role="tab"
+                      aria-selected={j === subSel}
+                    >
+                      {vid.titulo || `Video ${j + 1}`}
+                    </button>
+                  ))}
+                </div>
+              ) : null}
+            </div>
+          </div>
+        </Reveal>
+      </div>
+    </section>
+  );
+}

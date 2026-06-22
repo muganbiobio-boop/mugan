@@ -6,7 +6,7 @@
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { Reveal, Btn, waLink, Icon, ytId, Navbar, Hero, QuienesSomos, Valores, Instructores, Horarios, Planes } from "./mugan-ui.jsx";
-import { ZonaAlumnos } from "./mugan-zona.jsx";
+import { ZonaAlumnos, CombateMatsokgi } from "./mugan-zona.jsx";
 import { img } from "./webp.js";
 
 /* ---------- Muro social en vivo ---------- */
@@ -304,6 +304,7 @@ export default function App() {
       <MuroSocial />
       <div className="diag-divider"></div>
       <ZonaAlumnos />
+      <CombateMatsokgi />
       <Galeria />
       <div className="diag-divider"></div>
       <Instructores />

@@ -123,7 +123,9 @@
 
   function build() {
     // NAV
-    el('nav').innerHTML = `<span class="nav__brand"><img src="logos/mugan.png" alt="Mugan Academia">Mugan</span><div class="nav__links">${navLinks()}</div><button class="btn-pdf" onclick="window.print()" aria-label="Descargar PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Descargar PDF</button>`;
+    // Botonera (Fundamentos/Posiciones/Tul/…) eliminada: no tenía función.
+    // Se conservan el logo y el botón "Descargar PDF".
+    el('nav').innerHTML = `<span class="nav__brand"><img src="logos/mugan.png" alt="Mugan Academia">Mugan</span><span style="flex:1"></span><button class="btn-pdf" onclick="window.print()" aria-label="Descargar PDF"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Descargar PDF</button>`;
 
     // COVER
     el('cover').innerHTML = `<div class="cover__tape"></div><div class="cover__inner">
