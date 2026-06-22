@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480">
+  
+  <g fill="#FFFFFF" fill-opacity="0.045" font-family="&#39;Malgun Gothic&#39;,&#39;Apple SD Gothic Neo&#39;,&#39;Noto Sans KR&#39;,sans-serif" font-weight="700">
+    <text x="30" y="90" font-size="54" transform="rotate(-30 30 90)">태권도</text>
+    <text x="300" y="64" font-size="34">예의</text>
+    <text x="150" y="214" font-size="40" transform="rotate(-30 150 214)">백절불굴</text>
+    <text x="362" y="244" font-size="30">염치</text>
+    <text x="58" y="334" font-size="32">인내</text>
+    <text x="250" y="396" font-size="46" transform="rotate(-30 250 396)">극기</text>
+    <text x="396" y="434" font-size="30">무간</text>
+  </g>
+</svg>

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.DS_Store
+**/.DS_Store
+
+# Config local de Claude Code (no necesario para el sitio)
+.claude/settings.local.json
+
+# Paquete original del handoff
+pagina mugan.zip
