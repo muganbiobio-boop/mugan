@@ -360,7 +360,8 @@ window.MUGAN = {
       ],
       videos: [
       { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=sIROpaedlRA&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=23", mp4: "" },
-      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=A3cJQJR8rh0&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=24", mp4: "" }
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=A3cJQJR8rh0&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=24", mp4: "" },
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=_5-gTw8LIGg&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=25", mp4: "" },
       ],
       audios: [{ titulo: "Terminología I Dan", desc: "Teoría avanzada del nivel", src: "audio/term-1dan.mp3" }],
       tutoriales: [{ titulo: "Materia I Dan — Cinturón Negro", src: "tutoriales/cinturon-negro_1dan.html" }],
@@ -375,7 +376,11 @@ window.MUGAN = {
         { nombre: "Choong-Jang", movimientos: "52 movimientos", significado: "Seudónimo del general Kim Duk Ryang (siglo XIV).", diagrama: "img/tul_15_choong_jang.png", youtubeId: "https://www.youtube.com/watch?v=1aBJ296G3Fs&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=27" },
         { nombre: "Juche", movimientos: "45 movimientos", significado: "La idea de que el ser humano es dueño de su propio destino.", diagrama: "img/tul_16_juche.png", youtubeId: "https://www.youtube.com/watch?v=EXCJmAEr-Y8&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=4" },
       ],
-      videos: [{ titulo: "Tules de II Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=Xf8K4X3w52o&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=26", mp4: "" }],
+      videos: [
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=Xf8K4X3w52o&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=26", mp4: "" },
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=1aBJ296G3Fs&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=27", mp4: "" },
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=EXCJmAEr-Y8&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=4", mp4: "" },
+      ],
       audios: [{ titulo: "Terminología II Dan", desc: "Teoría avanzada del nivel", src: "audio/term-2dan.mp3" }],
       tutoriales: [{ titulo: "Materia II Dan — Cinturón Negro", src: "tutoriales/cinturon-negro_2dan.html" }],
     },
@@ -389,7 +394,11 @@ window.MUGAN = {
         { nombre: "Yoo-Sin", movimientos: "68 movimientos", significado: "Honra al general Kim Yoo Sin; 68 por el año 668, unificación de Corea.", diagrama: "img/tul_18_yoo_sin.png", youtubeId: "https://www.youtube.com/watch?v=hB-LVcOLdb8&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=29" },
         { nombre: "Choi-Yong", movimientos: "46 movimientos", significado: "Honra al general Choi Yong, símbolo de lealtad y honestidad.", diagrama: "img/tul_19_choi_yong.png", youtubeId: "https://www.youtube.com/watch?v=utktT20XLW0&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=30" },
       ],
-      videos: [{ titulo: "Tules de III Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=eOfVLUyvBdY&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=28", mp4: "" }],
+      videos: [
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=eOfVLUyvBdY&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=28", mp4: "" },
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=hB-LVcOLdb8&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=29", mp4: "" },
+      { titulo: "Tules de I Dan (placeholder)", youtubeId: "https://www.youtube.com/watch?v=utktT20XLW0&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=30", mp4: "" },
+      ],
       audios: [{ titulo: "Terminología III Dan", desc: "Teoría avanzada del nivel", src: "audio/term-3dan.mp3" }],
       tutoriales: [{ titulo: "Materia III Dan — Cinturón Negro", src: "tutoriales/cinturon-negro_3dan.html" }],
     },
