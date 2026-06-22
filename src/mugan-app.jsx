@@ -5,7 +5,7 @@
    ============================================================ */
 
 import React, { useState, useEffect, useRef, useCallback } from "react";
-import { Reveal, Btn, waLink, Icon, Navbar, Hero, QuienesSomos, Valores, Instructores, Horarios, Planes } from "./mugan-ui.jsx";
+import { Reveal, Btn, waLink, Icon, ytId, Navbar, Hero, QuienesSomos, Valores, Instructores, Horarios, Planes } from "./mugan-ui.jsx";
 import { ZonaAlumnos } from "./mugan-zona.jsx";
 import { img } from "./webp.js";
 
@@ -25,7 +25,7 @@ function SocialWindow({ tipo, titulo, usuario, url, embedHtml, youtubeId }) {
           <div style={{ width: "100%", height: "100%", overflow: "auto" }} dangerouslySetInnerHTML={{ __html: embedHtml }}></div>
         ) : youtubeId ? (
           <iframe
-            src={`https://www.youtube-nocookie.com/embed/${youtubeId}`}
+            src={`https://www.youtube-nocookie.com/embed/${ytId(youtubeId)}`}
             title={`Último video de ${titulo}`}
             allowFullScreen
           ></iframe>

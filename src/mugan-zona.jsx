@@ -6,7 +6,7 @@
    ============================================================ */
 
 import React, { useState, useEffect, useRef } from "react";
-import { Reveal, Btn, Icon } from "./mugan-ui.jsx";
+import { Reveal, Btn, Icon, ytId } from "./mugan-ui.jsx";
 import { img } from "./webp.js";
 
 /* ---------- Visual de cinturón (franja con color real y punta) ---------- */
@@ -63,7 +63,7 @@ function TabTules({ belt }) {
             {tul.youtubeId ? (
               <div className="video-player" style={{ marginTop: "18px" }}>
                 <iframe
-                  src={`https://www.youtube-nocookie.com/embed/${tul.youtubeId}`}
+                  src={`https://www.youtube-nocookie.com/embed/${ytId(tul.youtubeId)}`}
                   title={`Video técnico ${tul.nombre}`}
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
@@ -94,7 +94,7 @@ function TabVideos({ belt }) {
           <div className="video-player">
             {v.youtubeId ? (
               <iframe
-                src={`https://www.youtube-nocookie.com/embed/${v.youtubeId}`}
+                src={`https://www.youtube-nocookie.com/embed/${ytId(v.youtubeId)}`}
                 title={v.titulo}
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -130,7 +130,7 @@ function TabVideos({ belt }) {
                   className="vt-img"
                   style={
                     vid.youtubeId
-                      ? { backgroundImage: `url('https://i.ytimg.com/vi/${vid.youtubeId}/hqdefault.jpg')` }
+                      ? { backgroundImage: `url('https://i.ytimg.com/vi/${ytId(vid.youtubeId)}/hqdefault.jpg')` }
                       : undefined
                   }
                 >

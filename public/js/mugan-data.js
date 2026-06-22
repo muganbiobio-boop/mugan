@@ -14,8 +14,10 @@
        "Tutoriales" de la Zona Alumnos. Para crear uno nuevo (ej: los Dan),
        copia un archivo existente como tutoriales/cinturon-blanco.html y edita
        el objeto window.BELT del final; reutiliza tutorial.css y tutorial.js.
-   - Videos de YouTube:   youtubeId: "dQw4w9WgXcQ" ← solo el ID,
-     lo que va después de "watch?v=" en la URL (sirven los no listados).
+   - Videos de YouTube:   youtubeId: "dQw4w9WgXcQ" ← el ID (lo que va
+     después de "watch?v="). También puedes pegar la URL completa: el
+     sitio extrae el ID solo. El video debe ser Público o No listado
+     (los Privados no se pueden incrustar).
    - Si un campo está vacío (""), el sitio muestra un placeholder
      elegante en su lugar — nada se rompe.
    ============================================================ */
