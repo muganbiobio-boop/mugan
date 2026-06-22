@@ -117,22 +117,22 @@ window.MUGAN = {
     {
       categoria: "Infantil", edades: "5 a 9 años",
       bloques: [
-        { dia: "Lunes y Miércoles", hora: "17:30 – 18:30" },  // ✏️ REEMPLAZAR
+        { dia: "Lunes y Miércoles", hora: "19:20 – 20:20" },  // ✏️ REEMPLAZAR
         { dia: "Sábado", hora: "10:00 – 11:00" },
       ],
     },
     {
       categoria: "Juvenil", edades: "10 a 15 años",
       bloques: [
-        { dia: "Lunes y Miércoles", hora: "18:30 – 19:45" },
+        { dia: "Lunes y Miércoles", hora: "19:20 – 20:20" },
         { dia: "Viernes", hora: "18:00 – 19:15" },
       ],
     },
     {
       categoria: "Adultos", edades: "16+ años",
       bloques: [
-        { dia: "Lunes y Miércoles", hora: "20:00 – 21:30" },
-        { dia: "Viernes", hora: "19:30 – 21:00" },
+        { dia: "Lunes y Miércoles", hora: "20:30 – 21:30" },
+        { dia: "Viernes", hora: "20:30 – 21:30" },
       ],
     },
   ],
