@@ -90,7 +90,7 @@ window.MUGAN = {
     {
       nombre: "José Miguel Espinoza",
       grado: "I Dan Taekwon-Do ITF · II Dan Choikwando",
-      rol: "Director e instructor",
+      rol: "Instructor",
       bio: "",
       foto: "img/jose-miguel.jpg",
     },
