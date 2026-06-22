@@ -91,14 +91,14 @@ window.MUGAN = {
       nombre: "José Miguel Espinoza",
       grado: "I Dan Taekwon-Do ITF · II Dan Choikwando",
       rol: "Instructor",
-      bio: "",
+      bio: "@joseflowdo",
       foto: "img/jose-miguel.jpg",
     },
     {
       nombre: "Álvaro Caballero",
       grado: "I Dan Taekwon-Do ITF · I Dan Taekwondo WT",
       rol: "Instructor",
-      bio: "",
+      bio: "@alvaro_caballero.diaz",
       foto: "img/alvaro.jpg",
     },
     {
