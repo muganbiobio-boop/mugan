@@ -171,18 +171,18 @@ window.MUGAN = {
           movimientos: "Ejercicio fundamental",
           significado: "Golpe en cuatro direcciones: introduce la posición caminante y el golpe de puño medio.",
           diagrama: "img/pretul_01_saju_jirugi.png",
-          youtubeId: "",           // ✏️ ID de YouTube del video técnico
+          youtubeId: "https://www.youtube.com/watch?v=qYBxko-4yZo&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG&index=9",           // ✏️ ID de YouTube del video técnico
         },
         {
           nombre: "Saju Makgi",
           movimientos: "Ejercicio fundamental",
           significado: "Bloqueo en cuatro direcciones: bloqueo bajo y medio, base de la defensa.",
           diagrama: "img/pretul_02_saju_makgi.png",
-          youtubeId: "",
+          youtubeId: "https://www.youtube.com/watch?v=AD3WyTLkVhY",
         },
       ],
       videos: [
-        { titulo: "Posiciones básicas (placeholder)", youtubeId: "", mp4: "" },
+        { titulo: "Posiciones básicas (placeholder)", youtubeId: "https://www.youtube.com/watch?v=6X1OTIAaJII&list=PL-MnBzNTiwmeYc46H6orqLdofv-oDnjTG", mp4: "" },
         { titulo: "Saju Jirugi paso a paso (placeholder)", youtubeId: "", mp4: "" },
       ],
       audios: [
@@ -203,7 +203,7 @@ window.MUGAN = {
           nombre: "Chon-Ji",
           movimientos: "19 movimientos",
           significado: "«Cielo y Tierra». El inicio de la historia del mundo y del alumno en el Taekwon-Do.",
-          diagrama: "img/tul_03_chon_ji.png", youtubeId: "",
+          diagrama: "img/tul_03_chon_ji.png", youtubeId: "https://www.youtube.com/watch?v=0geBPLJn0GI",
         },
       ],
       videos: [{ titulo: "Tul Chon-Ji completo (placeholder)", youtubeId: "", mp4: "" }],
